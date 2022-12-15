@@ -68,4 +68,4 @@ def mouseClicked():
 def keyReleased():
     #press any key to turn off CPU
     global playWithCPU
-    playWithCPU = not playWithC
+    playWithCPU = not playWithCPU
