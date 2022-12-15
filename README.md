@@ -11,6 +11,14 @@ Will Betts Cope CMSCH107A Final Project. Fully functional Othello game complete 
 2. Press 'Run'
 
 ## Interface
+1. To play a move, click within the desired square
+ - A piece will only be played if the desired move is legal (squares with transparent gray pieces denote legal moves)
+ - The color of the piece to be played next is indicated by the color of the transparent piece following the mouse
+2. If no moves are legal, click on the "No Moves" circle in the top left corner (or anywhere else on the screen)
+3. By default, the program will play against the user, playing the white pieces - Press any valid key to toggle this feature
+ - On the program's turn, the red highlighted square numbers display the location of the program's intended move (to be played by the user)
+ - If the program has no legal moves, it will highlight the coordinates (1,1), prompting the user to click on the "No Moves" square
+4. When the game ends, the winner and score are displayed as "[Winner] Wins! [Winner's score] : [Loser's score]"
 
-
-Dont forget the (1,1) press me thing
+## Unit Testing
+- Usual cases and major extremes tested visually
